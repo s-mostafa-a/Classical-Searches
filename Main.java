@@ -15,7 +15,7 @@ public class Main {
         divar[3][4] = false;
 
         Problem soal = new Q3(divar,5,5);
-        IDFS bfs = new IDFS(soal.getFirstState());
-        bfs.run();
+        IDFS algorithm = new IDFS(soal.getFirstState());
+        algorithm.run();
     }
 }
